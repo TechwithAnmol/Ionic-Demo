@@ -7,6 +7,7 @@ pipeline {
       stage('NPM Setup') {
       steps {
          sh 'npm install'
+         sh 'ionic init'
       }
    }
 
